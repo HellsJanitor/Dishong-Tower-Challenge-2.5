@@ -76,4 +76,6 @@ WMMPersistGameOptions		-Author: w00kien00kie
 
 The mod comes already pre-bundled in a Mods folder - just extract that Mods folder into your base game directory, usually Steam\steampps\common\7DaystoDie, then run the game.
 This mod is updated for version 2.5 (b32), but *may* need to be updated as the base game release build is updated.
-When starting the game, make sure you choose one of the five game worlds called **Dishong Challenge**
+
+>[!IMPORTANT]
+>### When starting the game, make sure you choose one of the five game worlds called **Dishong Challenge**
