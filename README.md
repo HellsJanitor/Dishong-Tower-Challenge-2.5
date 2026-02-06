@@ -8,8 +8,11 @@ All files and folders needed to run the mod.
 Essentially the same as the v2.0 version, with some notable changes:
 
 Progression has been reworked to fit the new v2.5 progression path.
+
 Zombies no longer drop red bags - the corpses are lootable. Corpses will despawn on looting, and/or after 1 IRL hour (matches vanilla lootbag behaviour)
+
 Zombies corspes are immune to cop explosions.
+
 Screamer behaviour has been reverted to previous alpha behaviour - scout summoning is capped at 3 events, and then stops.
 
 >[!IMPORTANT]
