@@ -1,0 +1,59 @@
+<configs>
+	<csv op="remove" xpath="//entitygroup[contains(text(), 'animalZombieBear') and not (@name='animalZombieBear') and not (@name='ZombieBearsGroup')]/text()" delim="\n">*animalZombieBear*</csv>
+	<csv op="remove" xpath="//entitygroup[contains(text(), 'animalDireWolf') and not (@name='animalDireWolf')]/text()" delim="\n">*animalDireWolf*</csv>
+	<csv op="remove" xpath="//entitygroup[contains(text(), 'animalBear') and not (@name='animalBear') and not (@name='animalBearSmall') and not (@name='BearGroup') and not (@name='BearSmallGroup')]/text()" delim="\n">*animalBear*</csv>
+		
+	<set xpath="//entitygroup[@name='EnemyAnimalsWastelandNight']">
+		animalWolf, 20
+		animalZombieDog, 20
+		none, 60
+	</set>
+
+	<set xpath="//entitygroup[@name='ZombiesDesert']">
+	zombiePlagueSpitter, 10
+	none, 90
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesDesertNight']">
+	zombiePlagueSpitter, 10
+	zombiePlagueSpitterFeral, 05
+	none, 85
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesSnow']">
+	zombieFrostclaw, 10
+	none, 90
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesSnowNight']">
+	zombieFrostclaw, 10
+	zombieFrostclawFeral, 05
+	zombieLumberjack, 05
+	zombieLumberjackFeral, 05
+	none, 75
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesAllWasteland']">
+	zombieBowler, .1
+	zombieArlene, .4
+	zombieSteveCrawler, .4
+	zombieJoe, .4
+	zombieSteve, .4
+	zombieTomClark, .4
+	zombieYo, .4
+	zombieDarlene, .4
+	zombieMarlene, .4
+	zombieMoe, .4
+	zombieBusinessMan, .4
+	zombieBoe, .4
+	zombieFemaleFat
+	zombieFatHawaiian
+	zombieNurse
+	zombieSoldier
+	zombieBurnt
+	zombieSpider
+	zombieFatCop
+	zombieMaleHazmat
+	zombieMutated, .1
+	</set>
+</configs>

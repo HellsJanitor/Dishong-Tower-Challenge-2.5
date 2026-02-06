@@ -1,2 +1,76 @@
-# Dishong-Tower-Challenge-2.5
+# Dishong Tower Challenge
+All files and folders needed to run the mod.
 
+**Please report any bugs/issues on the official forum thread:** (https://community.thefunpimps.com/resources/the-dishong-tower-challenge-2-0.77/)
+
+## CHANGELOG v 2.5.0.0
+
+Essentially the same as the v2.0 version, with some notable changes:
+
+Progression has been reworked to fit the new v2.5 progression path.
+Zombies no longer drop red bags - the corpses are lootable. Corpses will despawn on looting, and/or after 1 IRL hour (matches vanilla lootbag behaviour)
+Zombies corspes are immune to cop explosions.
+Screamer behaviour has been reverted to previous alpha behaviour - scout summoning is capped at 3 events, and then stops.
+
+>[!IMPORTANT]
+>### It is HIGHLY recommended to turn biome progression OFF!
+
+
+
+
+
+## This challenge places you, a lone survivor, in the eponymous Dishong Tower, a towering edifice of death incarnate. Your only means of escape is to gather everything you need to be able to craft a gyrocopter and make your escape from the rooftop to the nearby settlement. You have one life. Make it count.
+
+ 
+
+### A mini overhaul mod, re-imagined for version 2.5. One tower, one trader, one means of escape.
+
+ 
+
+Five custom worlds, each a different biome, so you can choose your starting "difficulty" - Forest, Burnt Forest, Desert, Snow, or the ultimate challenge, Wasteland.
+
+Custom-edited Dishong Tower POI, giving you everything you need to be able to complete your quest.
+
+Custom questline, guiding you on your way.
+
+ 
+
+### Challenge Rules: 
+
+1: You must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter.
+
+2: The rubble on the ground around the tower is NOT part of the tower, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it.
+
+3: You may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.
+
+4: You may NOT mine or dig under the building.
+
+5: If you die, the game is over.
+
+6: You must survive until you are able to build a gyrocopter and fly off the roof.
+
+### Contributors:
+
+DishongGameOptions 			-Author: w00kien00kie
+
+DishongPickupWorkstations 	-Author: Frilioth
+
+KHV1-HPBars					-Author: Khaine
+
+Khelldon Custom Menu 		-Author: Khelldon
+
+WMMLootRespawnTweak			-Author: w00kien00kie
+
+WMMAvoidBloodmoon			-Author: w00kien00kie
+
+WMMPersistGameOptions		-Author: w00kien00kie
+
+
+
+### Credit to Glock9 for the very first idea of the challenge, which inspired the creation of the mod.
+
+## Installation:
+
+The mod comes already pre-bundled in a Mods folder - just extract that Mods folder into your base game directory, usually Steam\steampps\common\7DaystoDie, then run the game.
+This mod is updated for version 2.0, currently Experimental Release (b289), but *may* need to be updated as the base game release build is updated.
+When starting the game, make sure you choose one of the five game worlds called **Dishong Challenge**

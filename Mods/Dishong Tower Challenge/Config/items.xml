@@ -1,0 +1,51 @@
+﻿<configs>
+	<insertafter xpath="/items/item[@name]/property[1]">
+		<property name="CreativeMode" value="None"/>
+	</insertafter>
+	<set xpath="/items/item//property[@name='CreativeMode']/@value">None</set>
+	
+	<set xpath="//item[@name='armorPrimitiveHelmet']/effect_group[@name='PrimitiveHelmet']//passive_effect[@name='ModSlots']/@value">2,2,2,2,2,2</set>
+	
+	<set xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">22</set>
+	<set xpath="/items/item[@name='foodPumpkinBread']/effect_group/triggered_effect[@cvar='foodHealthAmount']/@value">11</set>
+	<set xpath="/items/item[@name='foodEgg']/property[@name='EconomicValue']/@value">30</set>
+	
+	<set xpath="//item[@name='resourceCoal']//property[@name='Group']/@value">Resources,Chemicals,CFChemicals</set>
+	<set xpath="//item[@name='resourceAcid']//property[@name='Group']/@value">Resources,Chemicals,CFChemicals</set>
+	<insertbefore xpath="//item[@name='resourceAcid']//property[1]">
+		<property name="UnlockedBy" value="craftingVehicles"/>
+	</insertbefore>	
+	
+	<set xpath="//item[@name='resourceWaterFilter']//property[@name='Stacknumber']/@value">1</set>
+	<insertafter xpath="//item[@name='drugAntibiotics']">
+		<item name="drugAntibioticsDT">
+			<property name="CreativeMode" value="None"/>
+			<property name="CustomIcon" value="drugAntibiotics"/>
+			<property name="HoldType" value="16"/>
+			<property name="Meshfile" value="@:Other/Items/Health/painkillersPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="EconomicValue" value="240"/>
+			<property name="Stacknumber" value="10"/><!-- STK loot -->
+			<property name="UnlockedBy" value="craftingMedical"/><!-- perkPhysician,drugAntibioticsSchematic, -->
+			<property name="DisplayType" value="cureInfection"/>
+			<property name="Group" value="Science,CFChemicals,Medical,TCMedical"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="player_painkillers"/>
+			</property>
+			<effect_group tiered="false">
+				<display_value name="dCureInfection" value=".25"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="add" value="25"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffInfectionAddCure"/>
+			</effect_group>
+		</item>
+	</insertafter>
+	
+	  <!-- Safely remove biome gear unlock references to stop crafting UI errors -->
+	  <remove xpath="//item[@name='biomeWeatherItem1']/property[@name='UnlockedBy']"/>
+	  <remove xpath="//item[@name='biomeWeatherItem2']/property[@name='UnlockedBy']"/>
+	  <remove xpath="//item[@name='biomeWeatherItem3']/property[@name='UnlockedBy']"/>
+	  <remove xpath="//item[@name='biomeWeatherItem4']/property[@name='UnlockedBy']"/>
+</configs>
