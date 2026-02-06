@@ -15,7 +15,7 @@ Zombies corpses are immune to cop explosions.
 
 Screamer behaviour has been reverted to previous alpha behaviour - scout summoning is capped at 3 events, and then stops.
 
->[!IMPORTANT]
+>[!TIP]
 >### It is HIGHLY recommended to turn biome progression OFF!
 
 
