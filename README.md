@@ -40,23 +40,28 @@ Custom questline, guiding you on your way.
 
 ### Challenge Rules: 
 
-1: You must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter.
+1: All default player blockdamage, zombie block damage, XP gain etc. Loot percentage should be no higher than 100%.
 
-2: The rubble on the ground around the tower is NOT part of the tower, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it.
+2: You may set loot percentage LOWER than 100%, you may set enemy block damage HIGHER than 100%, player block damage LOWER than 100%.
+You may set your loot respawn time, bloodmoon interval, difficulty, run speeds and such to whatever you please.
 
-3: You may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.
+3: You must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter.
 
-4: You may NOT mine or dig under the building.
+4: The rubble on the ground around the tower is NOT part of the tower, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it.
 
-5: If you die, the game is over.
+5: You may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.
 
-6: You must survive until you are able to build a gyrocopter and fly off the roof.
+6: You may NOT mine or dig under the building.
+
+7: If you die, the game is over.
+
+8: You must survive until you are able to build a gyrocopter and fly off the roof.
 
 ### Contributors:
 
 DishongGameOptions 			-Author: w00kien00kie
 
-DishongPickupWorkstations 	-Author: Frilioth
+FrilPickupWorkstation	 	-Author: Frilioth
 
 KHV1-HPBars					-Author: Khaine
 

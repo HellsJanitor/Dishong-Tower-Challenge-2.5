@@ -6,9 +6,12 @@
 Essentially the same as the v2.0 version, with some notable changes:
 
 Progression has been reworked to fit the new v2.5 progression path.
+
 Zombies no longer drop red bags - the corpses are lootable. Corpses will despawn on looting, and/or after 1 IRL hour (matches vanilla lootbag behaviour)
+
 Zombies corpses are immune to cop explosions.
-Screamer behaviour has been reverted to previous alpha behaviour - scout summoning is capped at 3 events, and then stops.
+
+Screamer behaviour has been reverted to previous alpha behaviour - scout summoning is capped at 3 events, and then stops.	
 									
 									
 THE DISHONG TOWER CHALLENGE:
@@ -33,25 +36,30 @@ For version 2.5, I HIGHLY recommend turning biome progression OFF.
 					
 CHALLENGE RULES: 
 
-1: You must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter.
+1: All default player blockdamage, zombie block damage, XP gain etc. Loot percentage should be no higher than 100%.
 
-2: The rubble on the ground around the tower is NOT part of the tower, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it.
+2: You may set loot percentage LOWER than 100%, you may set enemy block damage HIGHER than 100%, player block damage LOWER than 100%.
+You may set your loot respawn time, bloodmoon interval, difficulty, run speeds and such to whatever you please.
 
-3: You may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.
+3: You must enter the Dishong Tower immediately (being on the front porch counts as being in) and cannot leave thereafter.
 
-4: You may NOT mine or dig under the building.
+4: The rubble on the ground around the tower is NOT part of the tower, and as such may NOT be used to support any structures, or to grow any crops, unless you can do this WITHOUT touching it.
 
-5: If you die, the game is over.
+5: You may build bridges off the side of the building to reach things, but those bridges must support themselves and cannot touch the ground.
 
-6: You must survive until you are able to build a gyrocopter and fly off the roof.
+6: You may NOT mine or dig under the building.
+
+7: If you die, the game is over.
+
+8: You must survive until you are able to build a gyrocopter and fly off the roof.
 			
 Contributors:
-DishongGameOptions 			-Author: w00kien00kie
-DishongPickupWorkstations 	-Author: Frilioth
-KHV1-HPBars					-Author: Khaine
+DishongLootBags 			-Author: w00kien00kie
+FrilPickupWorkstation	 	-Author: Frilioth
+KHA21-HPBars				-Author: Khaine
 Khelldon Custom Menu 		-Author: Khelldon
+WMMAvoidBloodmoon 			-Author: w00kien00kie
 WMMLootRespawnTweak			-Author: w00kien00kie
-WMMAvoidBloodmoon			-Author: w00kien00kie
 WMMPersistGameOptions		-Author: w00kien00kie
 
 Credit to Glock9 for the very first idea of the challenge, which inspired the creation of the mod.

@@ -10,31 +10,31 @@
 	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='AirDropFrequency']" /> -->
 	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='MaxChunkAge']" /> -->
 	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='BuildCreate']" /> -->
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='AirDropMarker']" />
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='AirDropMarker']" /> -->
 	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='PlayerKillingMode']" /> -->
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimSize']" />
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimDeadZone']" />
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimExpiryTime']" />
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimDecayMode']" />
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimOnlineDurabilityModifier']" />
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimOfflineDurabilityModifier']" />
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimOfflineDelay']" />
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='BedrollDeadZoneSize']" />
-	<remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='BedrollExpiryTime']" />
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimSize']" /> -->
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimDeadZone']" /> -->
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimExpiryTime']" /> -->
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimDecayMode']" /> -->
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimOnlineDurabilityModifier']" /> -->
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimOfflineDurabilityModifier']" /> -->
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='LandClaimOfflineDelay']" /> -->
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='BedrollDeadZoneSize']" /> -->
+	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='BedrollExpiryTime']" /> -->
 	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='DeathPenalty']" /> -->
 	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='DropOnDeath']" /> -->
 	<!-- <remove xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect/grid/gameoption[@name='DropOnQuit']" /> -->
 	
-	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsGeneral']/grid/gameoption[@name='XPMultiplier']/@values">100</set>
+	<!-- <set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsGeneral']/grid/gameoption[@name='XPMultiplier']/@values">100</set> -->
 	
-	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsBasic']/grid/gameoption[@name='AirDropFrequency']/@values">0</set>
+	<!-- <set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsBasic']/grid/gameoption[@name='AirDropFrequency']/@values">0</set> -->
 	
-	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='BlockDamagePlayer']/@values">25, 50, 75, 100</set>
-	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='BlockDamageAI']/@values">100, 125, 150, 175, 200, 300</set>
-	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='BlockDamageAIBM']/@values">100, 125, 150, 175, 200, 300</set>
-	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='LootAbundance']/@values">25, 33, 50, 67, 75, 100</set>
-	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='DeathPenalty']/@display_names">goPermaDeath</set>
-	<set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='DropOnDeath']/@display_names">goDeleteAll</set>
+	<!-- <set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='BlockDamagePlayer']/@values">25, 50, 75, 100</set> -->
+	<!-- <set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='BlockDamageAI']/@values">100, 125, 150, 175, 200, 300</set> -->
+	<!-- <set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='BlockDamageAIBM']/@values">100, 125, 150, 175, 200, 300</set> -->
+	<!-- <set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='LootAbundance']/@values">25, 33, 50, 67, 75, 100</set> -->
+	<!-- <set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='DeathPenalty']/@display_names">goPermaDeath</set> -->
+	<!-- <set xpath="/windows/window[@name='newContinueGame']/rect/rect/rect/rect[@tab_key='xuiGameSettingsAdvanced']/grid/gameoption[@name='DropOnDeath']/@display_names">goDeleteAll</set> -->
 	<remove xpath="/windows/window[@name='newsWindow']"/>
 
 </configs>
