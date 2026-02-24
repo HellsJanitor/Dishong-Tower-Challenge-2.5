@@ -3,6 +3,15 @@ All files and folders needed to run the mod.
 
 **Please report any bugs/issues on the official forum thread:** (https://community.thefunpimps.com/resources/the-dishong-tower-challenge-2-0.77/)
 
+
+## CHANGELOG v 2.5.1.0
+
+Added AGF's HUD and compatability patch
+
+Fixed a bug with "NO TRADER" being shown after challenge completion
+
+Localization tweaks
+
 ## CHANGELOG v 2.5.0.0
 
 Essentially the same as the v2.0 version, with some notable changes:
