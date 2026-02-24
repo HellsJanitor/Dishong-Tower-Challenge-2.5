@@ -9,7 +9,7 @@ Essentially the same as the v2.0 version, with some notable changes:
 
 Progression has been reworked to fit the new v2.5 progression path.
 
-Zombies no longer drop red bags - the corpses are lootable. Corpses will despawn on looting, and/or after 1 IRL hour (matches vanilla lootbag behaviour)
+Zombies no longer drop red bags - they drop brown sacks
 
 Zombies corpses are immune to cop explosions.
 
@@ -59,19 +59,23 @@ You may set your loot respawn time, bloodmoon interval, difficulty, run speeds a
 
 ### Contributors:
 
-DishongGameOptions 			-Author: w00kien00kie
+V2 HUDPlus & DTC Compatabilty	-Author: AuroraGiggleFairy
 
-FrilPickupWorkstation	 	-Author: Frilioth
+DishongGameOptions 				-Author: w00kien00kie
 
-KHV1-HPBars					-Author: Khaine
+DishongLootBags 				-Author: w00kien00kie
 
-Khelldon Custom Menu 		-Author: Khelldon
+FrilPickupWorkstation	 		-Author: Frilioth
 
-WMMLootRespawnTweak			-Author: w00kien00kie
+KHV1-HPBars						-Author: Khaine
 
-WMMAvoidBloodmoon			-Author: w00kien00kie
+Khelldon Custom Menu 			-Author: Khelldon
 
-WMMPersistGameOptions		-Author: w00kien00kie
+WMMLootRespawnTweak				-Author: w00kien00kie
+
+WMMAvoidBloodmoon				-Author: w00kien00kie
+
+WMMPersistGameOptions			-Author: w00kien00kie
 
 
 
