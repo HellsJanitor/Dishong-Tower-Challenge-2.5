@@ -4,8 +4,7 @@ goBiomeProgression,Biome Progression. Set this to [00ff00]OFF[-]
 goBiomeProgressionDesc,Enables biome hazards and loot stage caps to promote biome progression.\n\nLoot stage caps are increased by completing biome challenges.\n\nHIGHLY recommended to turn this [ffd700]OFF[-]
 goLootRespawnDays,Loot Respawn - [00ff00]'DO NOT Disable!'[-]
 goLootRespawnDaysDesc,The number of days for loot to respawn if there are no players around.\n\nSelect [00ff00]ANYTHING[-] except [ffd700]'Disabled'[-]
-goAirDropFrequency,Air Drops. Set this to [ffd700]DISABLED[-].
-goAirDropFrequencyDesc,"How often supplies are air-dropped in game hours.\n\nAirdrops CANNOT be reached by the player(s), so [ffd700]'Disabled'[-] is recommended."
+
 resourceCoalDesc,"A great fuel source and a core ingredient for gunpowder.\n\nCan be made from wood in a campfire"
 resourceAcidDesc,A resource used in crafting recipes.\n\nCan be crafted in beaker at a campfire or at the chemistry station.
 resourceBatteryAcid,Bottle of Acid
@@ -95,6 +94,8 @@ sledgehammersSkillMagazineDT,Get Hammered
 spearsSkillMagazineDT,Sharp Sticks
 roboticsSkillMagazineDT,Tech Planet
 explosivesSkillMagazineDT,Explosive Magazine
+medicalSplintDesc,"Moon's little helper.\nHeals a broken arm or leg but does not protect against further injury.\nUse the secondary action to treat another player."
+
 zombieArlene,Moonlunaplays
 zombieArleneFeral,Feral Moonlunaplays
 zombieArleneRadiated,Radiated Moonlunaplays

@@ -3,6 +3,11 @@ All files and folders needed to run the mod.
 
 **Please report any bugs/issues on the official forum thread:** (https://community.thefunpimps.com/resources/the-dishong-tower-challenge-2-0.77/)
 
+## CHANGELOG v 2.5.1.1
+
+Changed behaviour of airdrops so they can spawn within reach.
+
+Localization tweaks.
 
 ## CHANGELOG v 2.5.1.0
 

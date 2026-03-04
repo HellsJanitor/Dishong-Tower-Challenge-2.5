@@ -41,6 +41,7 @@
 	<setattribute xpath="//lootcontainer[@name='chemPileMed']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='chemPileLarge']" name="destroy_on_close">empty</setattribute>
 	<setattribute xpath="//lootcontainer[@name='collapsedDewCollector']" name="destroy_on_close">empty</setattribute>
+	<setattribute xpath="//lootcontainer[@name='airDrop']" name="destroy_on_close">empty</setattribute>
 	
 	<!-- removes paper from bookshelf loot -->
 	<remove xpath="//lootgroup[@name='groupBookcase01']//item[@name='resourcePaper']" />

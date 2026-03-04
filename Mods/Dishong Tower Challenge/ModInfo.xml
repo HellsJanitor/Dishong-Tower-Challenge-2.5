@@ -1,9 +1,9 @@
 <xml>	
 	<Name value="DishongTowerChallenge" />
 	<DisplayName value="Dishong Tower Challenge" />
-	<Version value="2.5.1.0" />
-	<Description value="Dishong tower challenge for release 2.5" />
-	<Author value="Zilox,HellsJanitor,Frantic Dan,Midnight Designer,SphereII,Pitchsilent,Frilioth,AuroraGiggleFairy" />
+	<Version value="2.5.1.1" />
+	<Description value="Dishong tower challenge for release 2.0" />
+	<Author value="Zilox,HellsJanitor,Frantic Dan,Midnight Designer,SphereII,Pitchsilent" />
 	<Website value="" />
 	<SkipWithAntiCheat value="false" />
 </xml>
