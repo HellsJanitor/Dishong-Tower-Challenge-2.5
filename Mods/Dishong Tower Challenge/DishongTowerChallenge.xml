@@ -2,7 +2,13 @@
 <Servers>
     <ServerGroup Name="Dishong Tower" Logo="https://cdn.discordapp.com/attachments/1155647724478275614/1159550526422253678/Dishong_splash.png" Description="Can you escape the Dishong Tower?">
         <Server Name="Dishong Tower 2.5" Logo="https://cdn.discordapp.com/attachments/1155647724478275614/1159550526422253678/Dishong_splash.png">
-            <Description>CHANGELOG v 2.5.1.2
+            <Description>CHANGELOG v 2.5.1.3
+
+Localization fixes
+
+Added Wookie's Video Options
+
+CHANGELOG v 2.5.1.2
 
 Final version of AGF's HUD/UI.
 

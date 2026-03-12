@@ -2,6 +2,13 @@
 All files and folders needed to run the mod.
 
 **Please report any bugs/issues on the official forum thread:** (https://community.thefunpimps.com/resources/the-dishong-tower-challenge-2-0.77/)
+## CHANGELOG v 2.5.1.3
+
+Localization fixes
+
+Added Wookie's Video Options
+
+
 ## CHANGELOG v 2.5.1.2
 
 Final version of AGF's HUD/UI.
